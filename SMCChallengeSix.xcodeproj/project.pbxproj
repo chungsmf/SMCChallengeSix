@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		10EE6B0819F3049D005D115B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE6B0719F3049D005D115B /* main.m */; };
 		10EE6B0B19F3049D005D115B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE6B0A19F3049D005D115B /* AppDelegate.m */; };
-		10EE6B0E19F3049D005D115B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE6B0D19F3049D005D115B /* ViewController.m */; };
 		10EE6B1119F3049D005D115B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EE6B0F19F3049D005D115B /* Main.storyboard */; };
 		10EE6B1319F3049D005D115B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EE6B1219F3049D005D115B /* Images.xcassets */; };
 		10EE6B1619F3049D005D115B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10EE6B1419F3049D005D115B /* LaunchScreen.xib */; };
 		10EE6B2219F3049D005D115B /* SMCChallengeSixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE6B2119F3049D005D115B /* SMCChallengeSixTests.m */; };
+		10EE6B2D19F30611005D115B /* SMCChallengeSixTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE6B2C19F30611005D115B /* SMCChallengeSixTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		10EE6B0719F3049D005D115B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10EE6B0919F3049D005D115B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10EE6B0A19F3049D005D115B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10EE6B0C19F3049D005D115B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10EE6B0D19F3049D005D115B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10EE6B1019F3049D005D115B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10EE6B1219F3049D005D115B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10EE6B1519F3049D005D115B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		10EE6B1B19F3049D005D115B /* SMCChallengeSixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMCChallengeSixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EE6B2019F3049D005D115B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10EE6B2119F3049D005D115B /* SMCChallengeSixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMCChallengeSixTests.m; sourceTree = "<group>"; };
+		10EE6B2B19F30611005D115B /* SMCChallengeSixTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCChallengeSixTableViewController.h; sourceTree = "<group>"; };
+		10EE6B2C19F30611005D115B /* SMCChallengeSixTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCChallengeSixTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				10EE6B0919F3049D005D115B /* AppDelegate.h */,
 				10EE6B0A19F3049D005D115B /* AppDelegate.m */,
-				10EE6B0C19F3049D005D115B /* ViewController.h */,
-				10EE6B0D19F3049D005D115B /* ViewController.m */,
 				10EE6B0F19F3049D005D115B /* Main.storyboard */,
+				10EE6B2B19F30611005D115B /* SMCChallengeSixTableViewController.h */,
+				10EE6B2C19F30611005D115B /* SMCChallengeSixTableViewController.m */,
 				10EE6B1219F3049D005D115B /* Images.xcassets */,
 				10EE6B1419F3049D005D115B /* LaunchScreen.xib */,
 				10EE6B0519F3049D005D115B /* Supporting Files */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10EE6B0E19F3049D005D115B /* ViewController.m in Sources */,
 				10EE6B0B19F3049D005D115B /* AppDelegate.m in Sources */,
 				10EE6B0819F3049D005D115B /* main.m in Sources */,
+				10EE6B2D19F30611005D115B /* SMCChallengeSixTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

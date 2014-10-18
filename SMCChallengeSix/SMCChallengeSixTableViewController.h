@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SMCChallengeSixTableViewController.h
 //  SMCChallengeSix
 //
 //  Created by Shi Ming Chung on 10/18/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SMCChallengeSixTableViewController : UITableViewController
 
 @end
-
